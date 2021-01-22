@@ -1,0 +1,141 @@
+html {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+    background-color:#42484e ;
+}
+
+body {
+    padding: 1rem;
+    padding-top: 0.1rem;
+    background: #1f2731;
+    color: rgb(220, 225, 225);
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-size: 1.8rem;
+}
+
+input[type="number"] {
+    font-family: inherit;
+    background: rgb(220, 225, 225);
+    width: 80%;
+    margin: 1rem 0;
+    padding: 0.9rem 0;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1,3rem;
+    font-weight: bolder;
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 50%;
+    background: #0df705;
+    margin: 0.5rem 0 1rem 0;
+}
+
+
+form button:hover{
+    background-color:#51fdfd;
+}
+
+
+ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    border-radius: 50%;
+    color: #73ff1c;
+}
+
+.entriesWrapper {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.entriesWrapper h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+.data {
+    font-size: 1.4rem;
+}
+
+.data div {
+    background: #082133;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.8rem 0;
+    padding: 0 1rem;
+    border-radius: 0.2rem;
+}
+
+.progress {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.progress h3 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.progressCircleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#progressCircle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* background: conic-gradient(#51fdfd 50%, #2d3740 50%);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressCenter {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background:#1f2731 ;
+}
+
+@media screen and (min-width: 800px){
+    body {
+        width: 60%;
+    }
+
+    input[type="number"] {
+        width: 40%;
+    }
+
+    svg {
+        max-width: 50%;
+    }
+}
